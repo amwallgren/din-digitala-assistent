@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<manifest identifier="dw5o_o3iFNLDmrKgiRQZrwkdTPH3FX-xhQuC_nRa" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Din digitala assistent - en guide</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Din digitala assistent - en guide</title>
+        <adlcp:datafromlms>eyJjcHYiOiJoUXVDX25SYSIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/2077d2f4.js" />
+<file href="scormcontent/lib/rise/11732e6a.css" />
+<file href="scormcontent/lib/rise/67b98076.js" />
+<file href="scormcontent/lib/rise/8bb17022.css" />
+<file href="scormcontent/lib/rise/7e055760.js" />
+<file href="scormcontent/lib/rise/eb9bd09f.js" />
+<file href="scormcontent/lib/rise/27e7283a.js" />
+<file href="scormcontent/lib/rise/20be7de8.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/976bee94.js" />
+<file href="scormcontent/lib/mondrian/db10803b.js" />
+<file href="scormcontent/lib/mondrian/b176ca34.js" />
+<file href="scormcontent/lib/mondrian/d7134136.js" />
+<file href="scormcontent/lib/mondrian/c16e7dd3.js" />
+<file href="scormcontent/lib/mondrian/c1257364.js" />
+<file href="scormcontent/lib/mondrian/eab04a62.js" />
+<file href="scormcontent/lib/mondrian/714fc133.js" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/JgOyT8Qmhr4YP_0z.jpg" />
+<file href="scormcontent/assets/uO8tuO/stock-image.jpg" />
+<file href="scormcontent/assets/BM55X6/stock-image.jpg" />
+<file href="scormcontent/assets/chatgpt.jpg" />
+<file href="scormcontent/assets/w5iYw_/stock-image.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-07%20142009.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-07%20142145.png" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-01%20103221.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-01%20103453.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20103639.jpg" />
+<file href="scormcontent/assets/GjKj_Q/stock-image.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20125334.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20125737.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-19%20103536.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20131444.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20132152.jpg" />
+<file href="scormcontent/assets/l%C3%A4randekultur8.mp4" />
+<file href="scormcontent/assets/l%C3%A4randekultur8.jpg" />
+<file href="scormcontent/assets/OG4h-p/stock-image.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20114816.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20115117.png" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20115614.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20115658.jpg" />
+<file href="scormcontent/assets/YZ1yH0/Sk%C3%A4rmbild%202024-02-08%20115658.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20120458.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20120608.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-08%20120658.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20133331.png" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-19%20170524.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20133744.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-18%20134214.png" />
+<file href="scormcontent/assets/ysoa4l/stock-image.jpg" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-28%20110837.png" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-28%20111915.png" />
+<file href="scormcontent/assets/Sk%C3%A4rmbild%202024-02-28%20113340.png" />
+<file href="scormcontent/assets/37ZOAs/stock-image.jpg" />
+
+      <file href="scormcontent/locales/und.js" />
+
+    </resource>
+  </resources>
+</manifest>
